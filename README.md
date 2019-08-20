@@ -1,4 +1,5 @@
-#toimg
+toimg
+=====
 
 Converts text to an image.
 

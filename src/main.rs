@@ -19,7 +19,12 @@ fn display_help() {
 Converts text to image and saves as an image file in the current directory.\n
 Default format is BMP.\n
  -h, --help                   Displays this help.
- -f, --format [FORMAT]        The format to save the image in (default: .bmp).
+ -f, --format [FORMAT]        The format to save the image in (default: .bmp). Available formats:
+                                 .png
+                                 .bmp
+                                 .jpg
+                                 .ico
+                                 .tif
  -n, --name [NAME]            The name of the output file (else saves as [FILE] name). Will overwrite the file if it already exists.
      --doc                    Display information on how to write input files.");
 }
